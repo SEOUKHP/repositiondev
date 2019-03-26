@@ -20,12 +20,52 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/css",
+                "src/assets/images"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+            
+              "src/assets/css/responsive.css",
+             
+              "src/assets/css/elementor/globalc12e.css",
+              "src/assets/css/elementor/post-137dfe.css",
+              "src/assets/css/elementor/post-360bc2.css",
+              "src/assets/css/elementor/post-531a64b.css",
+              "src/assets/css/elementor/post-5362a6b.css",
+              "src/assets/css/elementor/post-5370199.css",
+              "src/assets/css/elementor/post-538bc12.css",
+              "src/assets/css/elementor/post-5397ad4.css",
+              "src/assets/css/elementor/post-541a2ff.css",
+              "src/assets/css/elementor/post-54250c5.css",
+              "src/assets/css/elementor/post-5438aa4.css",
+              "src/assets/css/elementor/post-5449055.css",
+              "src/assets/css/elementor/post-5451d05.css",
+              "src/assets/css/elementor/post-546e142.css",
+              "src/assets/css/elementor/post-547b371.css",
+              "src/assets/css/elementor/post-63455ac.css",
+              "src/assets/css/elementor/post-7e30c.css",
+              "src/assets/css/elementor/post-8583557.css",
+              "src/assets/css/elementor/post-86b073.css",
+              "src/assets/css/elementor/post-957e545.css",
+              "src/assets/css/elementor/frontend.min747d.css",
+
+              "src/assets/css/style2.css",
+              "src/assets/css/slide/animate.mind5f7.css",
+              "src/assets/css/slide/owl.carousel7d13.css",
+              "src/assets/css/slide/sa-owl-themed5f7.css",
+              "src/assets/css/styled.css",
+
+              "node_modules/slick-carousel/slick/slick.css",
+              "node_modules/slick-carousel/slick/slick-theme.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+
+              "node_modules/slick-carousel/slick/slick.min.js"
+
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
