@@ -5,10 +5,16 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\layout",
+    "\\src\\app\\components\\layout\\footer",
+    "\\src\\app\\components\\layout\\header",
     "\\src\\app\\components\\site",
     "\\src\\app\\components\\site\\about",
-    "\\src\\app\\components\\site\\home"
+    "\\src\\app\\components\\site\\dental-seo",
+    "\\src\\app\\components\\site\\dental-seo-google",
+    "\\src\\app\\components\\site\\seo-services",
+    "\\src\\assets",
+    "\\src\\assets\\css"
   ],
-  "SelectedNode": "\\src\\app\\components\\site\\about\\about.component.ts",
+  "SelectedNode": "\\src\\app\\components\\layout\\footer\\footer.component.html",
   "PreviewInSolutionExplorer": false
 }
