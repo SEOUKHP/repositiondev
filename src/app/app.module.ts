@@ -63,6 +63,8 @@ import { WebDevelopmentComponent } from './components/site/category/web-developm
 import { WordpressDevelopmentComponent } from './components/site/category/wordpress-development/wordpress-development.component';
 import { CaseStudiesComponent } from './components/site/case-studies/case-studies.component';
 import { CategorySectionComponent } from './components/site/category-section/category-section.component';
+import { DoorstepsComponent } from './components/site/case-studies/doorsteps/doorsteps.component';
+
 
 @NgModule({
   declarations: [
@@ -122,7 +124,9 @@ import { CategorySectionComponent } from './components/site/category-section/cat
     WebDevelopmentComponent,
     WordpressDevelopmentComponent,
     CaseStudiesComponent,
-    CategorySectionComponent
+    CategorySectionComponent,
+    DoorstepsComponent
+   
   ],
   imports: [
     BrowserModule,

@@ -54,6 +54,7 @@ import { WebDesignComponent } from './components/site/category/web-design/web-de
 import { WebDevelopmentComponent } from './components/site/category/web-development/web-development.component';
 import { WordpressDevelopmentComponent } from './components/site/category/wordpress-development/wordpress-development.component';
 import { CaseStudiesComponent } from './components/site/case-studies/case-studies.component';
+import { DoorstepsComponent } from './components/site/case-studies/doorsteps/doorsteps.component';
 
 
 
@@ -127,6 +128,8 @@ const routes: Routes = [
   { path: 'blog/enterprise-seo',component: EnterpriseSeoComponent },
   { path: 'blog/ecommerce-seo', component: EcommerceSeoComponent },
   { path: 'blog/category', component:  CategoryComponent},
+  { path: 'case-study/doorsteps', component: DoorstepsComponent},
+  
 
   {
     path: '',
