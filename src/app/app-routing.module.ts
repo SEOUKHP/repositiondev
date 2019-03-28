@@ -53,6 +53,7 @@ import { VideoSeoComponent } from './components/site/category/video-seo/video-se
 import { WebDesignComponent } from './components/site/category/web-design/web-design.component';
 import { WebDevelopmentComponent } from './components/site/category/web-development/web-development.component';
 import { WordpressDevelopmentComponent } from './components/site/category/wordpress-development/wordpress-development.component';
+import { CaseStudiesComponent } from './components/site/case-studies/case-studies.component';
 
 
 
@@ -74,6 +75,7 @@ const routes: Routes = [
   { path: 'content-marketing-services', component: ContentMarketingServicesComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'specialized-seo-services', component: SpecializedSeoServicesComponent },
+  { path: 'case-study', component: CaseStudiesComponent},
   { path: 'blog/page2', component: Page2Component },
   { path: 'blog/page2/blog', component: Page2Component },
 

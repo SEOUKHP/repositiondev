@@ -184,6 +184,15 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'Montserrat-regular';
+  src: url('/assets/css/fonts/Montserrat-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 button,
 input:focus,
 input[type="button"],
@@ -2008,6 +2017,7 @@ p {
 
   .header-leftbar li a {
     color: #3b393a;
+    font-family: 'Montserrat-regular', sans-serif ;
     font-size: 14px;
     text-transform: capitalize;
     text-decoration: none;
@@ -2019,6 +2029,10 @@ p {
       color: #3ec352
     }
 
+.select-field option
+{
+  padding:25px;
+}
 .header-rightbar li {
   display: inline-block;
   margin: 0 0 0px 20px;
@@ -2027,6 +2041,7 @@ p {
 
   .header-rightbar li a {
     color: #3b393a;
+    font-family: 'Montserrat-regular', sans-serif ;
     font-size: 14px;
     text-transform: capitalize;
     text-decoration: none;
@@ -2451,7 +2466,7 @@ p {
   background: #252525;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   margin: 10px 0;
   border: 1px solid transparent;
   padding: 17px
@@ -2464,7 +2479,7 @@ p {
   margin: 10px 0;
   border: 1px solid transparent;
   padding: 15px;
-  font-size: 14px
+  font-size: 12px
 }
 
 .text-field::-webkit-input-placeholder {
@@ -3570,16 +3585,21 @@ p.comment-form-url {
 }
 
 .categories li {
-  display: inline-block
+  display: inline-block;
+  font-family: 'Montserrat-regular', sans-serif !important;
 }
 
-  .categories li a {
-    display: inline-block;
-    font-size: 12px;
-    color: #6f6b6c;
-    font-weight: 600;
-    margin: 0 23px
-  }
+/*.m-bottom {
+  margin-bottom:0px;
+}*/
+
+.categories li a {
+  display: inline-block;
+  font-size: 12px;
+  color: #6f6b6c;
+  font-weight: 600;
+  margin: 0 23px
+}
 
     .categories li a:hover {
       color: #3ec352 !important;
@@ -4369,10 +4389,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif !important;
 }
-
+p {
+  font-family: 'Montserrat-regular', sans-serif !important;
+}
 .auto-container {
   width: 945px;
   margin: auto;
@@ -4489,6 +4511,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   color: #3b393a;
   margin-bottom: 3px;
+  font-family: 'Montserrat-regular', sans-serif !important;
 }
 
   .genesis-nav-menu a:hover {
@@ -4918,7 +4941,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: #252525;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   margin: 10px 0;
   border: 1px solid transparent;
   padding: 17px;
@@ -4931,7 +4954,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 10px 0;
   border: 1px solid transparent;
   padding: 15px;
-  font-size: 14px
+  font-size: 12px
 }
 
 .text-field::-webkit-input-placeholder {

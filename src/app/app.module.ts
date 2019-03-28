@@ -62,6 +62,8 @@ import { VideoSeoComponent } from './components/site/category/video-seo/video-se
 import { WebDesignComponent } from './components/site/category/web-design/web-design.component';
 import { WebDevelopmentComponent } from './components/site/category/web-development/web-development.component';
 import { WordpressDevelopmentComponent } from './components/site/category/wordpress-development/wordpress-development.component';
+import { CaseStudiesComponent } from './components/site/case-studies/case-studies.component';
+import { CategorySectionComponent } from './components/site/category-section/category-section.component';
 
 @NgModule({
   declarations: [
@@ -119,7 +121,9 @@ import { WordpressDevelopmentComponent } from './components/site/category/wordpr
     VideoSeoComponent,
     WebDesignComponent,
     WebDevelopmentComponent,
-    WordpressDevelopmentComponent
+    WordpressDevelopmentComponent,
+    CaseStudiesComponent,
+    CategorySectionComponent
   ],
   imports: [
     BrowserModule,

@@ -14,9 +14,9 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
   slides = [
-    { right_img: "https://www.reposition.co.uk/wp-content/uploads/1.png", slick_idd:"slick-slide0 ", p: "SEO & CRO Optimisation", h2: "Purple Bricks", rank: " Increase in page 1 Ranking", traffic: "Increase in Organic Traffic", duration: "Average visit duration" },
-    { right_img: "https://www.reposition.co.uk/wp-content/uploads/2.png", slick_idd:"slick-slide1 ",p: "SEO & CRO Optimisation", h2: "Purple Bricks", rank: " Increase in page 1 Ranking", traffic: "Increase in Organic Traffic", duration: "Average visit duration" },
-    { right_img: "https://www.reposition.co.uk/wp-content/uploads/3.png", slick_idd:"slick-slide2 ",p: "SEO & CRO Optimisation", h2: "Purple Bricks", rank: " Increase in page 1 Ranking", traffic: "Increase in Organic Traffic", duration: "Average visit duration"  }
+    { right_img: "https://www.reposition.co.uk/wp-content/uploads/2019/03/CC11.png", slick_idd:"slick-slide0 ", p: "SEO & CRO Optimisation", h2: "Purple Bricks", rank: " Increase in page 1 Ranking", traffic: "Increase in Organic Traffic", duration: "Average visit duration" },
+    { right_img: "https://www.reposition.co.uk/wp-content/uploads/2019/03/CCqqq.png", slick_idd:"slick-slide1 ",p: "SEO & CRO Optimisation", h2: "World Pay", rank: " Increase in page 1 Ranking", traffic: "Increase in Organic Traffic", duration: "Average visit duration" },
+    { right_img: "https://www.reposition.co.uk/wp-content/uploads/2019/03/CC112.png", slick_idd:"slick-slide2 ",p: "SEO & CRO Optimisation", h2: "Hugo Boss", rank: " Increase in page 1 Ranking", traffic: "Increase in Organic Traffic", duration: "Average visit duration"  }
   ];
   slideConfig = {
     "dots": true,
