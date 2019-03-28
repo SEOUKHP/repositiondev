@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-content-marketing-services',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./content-marketing-services.component.css']
 })
 export class ContentMarketingServicesComponent implements OnInit {
-
-  constructor() { }
+ 
+constructor(private titleService: Title) {
+  this.titleService.setTitle(' Get Best Content Marketing Strategies and Services | Reposition');
+}
 
   ngOnInit() {
   }

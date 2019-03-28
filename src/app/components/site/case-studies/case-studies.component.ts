@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-case-studies',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CaseStudiesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Case Studies of Different Situation | Reposition');
+  }
 
   ngOnInit() {
   }
-
+ 
 }

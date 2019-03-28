@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-free-seo-services',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FreeSeoServicesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Get a Free SEO Analysis Of Your Site | Reposition');
 
+  }
   ngOnInit() {
   }
   slides = [

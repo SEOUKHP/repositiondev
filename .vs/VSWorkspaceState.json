@@ -4,9 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
+    "\\src\\app\\components\\layout",
+    "\\src\\app\\components\\layout\\footer",
     "\\src\\app\\components\\site",
-    "\\src\\app\\components\\site\\home"
+    "\\src\\app\\components\\site\\case-studies",
+    "\\src\\app\\components\\site\\dental-seo",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\components\\site\\home\\home.component.html",
+  "SelectedNode": "\\src\\app\\components\\layout\\footer\\footer.component.html",
   "PreviewInSolutionExplorer": false
 }

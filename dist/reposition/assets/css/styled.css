@@ -3589,13 +3589,17 @@ p.comment-form-url {
   font-family: 'Montserrat-regular', sans-serif !important;
 }
 
-  .categories li a {
-    display: inline-block;
-    font-size: 12px;
-    color: #6f6b6c;
-    font-weight: 600;
-    margin: 0 23px
-  }
+/*.m-bottom {
+  margin-bottom:0px;
+}*/
+
+.categories li a {
+  display: inline-block;
+  font-size: 12px;
+  color: #6f6b6c;
+  font-weight: 600;
+  margin: 0 23px
+}
 
     .categories li a:hover {
       color: #3ec352 !important;

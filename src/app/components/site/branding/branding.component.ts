@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-branding',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrandingComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Get The Best Branding Keywords | Reposition');
+  }
+  
   ngOnInit() {
   }
   slides = [

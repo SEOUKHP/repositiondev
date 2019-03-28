@@ -25,10 +25,11 @@
                 "src/assets/images"
             ],
             "styles": [
+              "src/assets/css/homeanimation.less",
               "src/styles.css",
-            
+
               "src/assets/css/responsive.css",
-             
+
               "src/assets/css/elementor/globalc12e.css",
               "src/assets/css/elementor/post-137dfe.css",
               "src/assets/css/elementor/post-360bc2.css",
@@ -61,10 +62,11 @@
               "node_modules/slick-carousel/slick/slick-theme.css"
             ],
             "scripts": [
+
               "node_modules/jquery/dist/jquery.min.js",
 
-              "node_modules/slick-carousel/slick/slick.min.js"
-
+              "node_modules/slick-carousel/slick/slick.min.js",
+              "src/assets/js/homejquery.js"
             ],
             "es5BrowserSupport": true
           },

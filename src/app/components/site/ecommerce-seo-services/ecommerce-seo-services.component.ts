@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-ecommerce-seo-services',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EcommerceSeoServicesComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(' Get Ecommerce SEO Services UK, London | Reposition');
+  }
+ 
   ngOnInit() {
   }
 

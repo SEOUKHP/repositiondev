@@ -4,26 +4,35 @@
       <p class="page-header__section"> </p>
       <h1 class="page-header__title">Showcase</h1>
       <div>
+     
         <form method="get" class="casestudy-search-form w-50 +m-auto">
-          <div class="row">
-            <div class="w-48 +m-auto">
-              <div class="control-group --theme-filter">
-                <div class="control-group__control">
-                  <div class="control-select fixedWidth">
-                    <span>TYPE</span>
-                    <select>
-                      <option value="">TYPE</option>
-                      <option value="design">DESIGN</option>
-                      <option value="fashion">FASHION</option>
-                      <option value="gaming">GAMBLING & GAMING</option>
-                      <option value="property">PROPERTY & REAL ESTATE</option>                      
-                    </select>
-                  </div>
-                </div>
-              </div>
+    <div class="row">
+      <div class="w-48 +m-auto">
+        <div class="control-group --theme-filter">
+          <div class="control-group__control">
+            <div class="control-select2 fixedWidth">
+            
+            <!--<select (change)="selectChangeHandler($event)">
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+
+        </select>-->
+              <select id="casestudy">
+                <option value="TYPE">TYPE</option>
+                <option value="design">DESIGN</option>
+                <option value="fashion">FASHION</option>
+                <option value="gaming">GAMBLING & GAMING</option>
+                <option value="property">PROPERTY & REAL ESTATE</option>
+              </select>
             </div>
           </div>
-        </form>
+        </div>
+      </div>
+    </div>
+  </form>
       </div>
       
     </header>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,7 +10,10 @@ import { NavigationEnd, Router } from '@angular/router';
 export class AppComponent {
   title = 'reposition';
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+   
+
+  }
 
   ngOnInit() {
     this.router.events.subscribe((evt) => {
