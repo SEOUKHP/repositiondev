@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-free-seo-services',
@@ -8,8 +9,9 @@ import { Title } from '@angular/platform-browser';
 })
 export class FreeSeoServicesComponent implements OnInit {
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title, private meta: Meta) {
     this.titleService.setTitle('Get a Free SEO Analysis Of Your Site | Reposition');
+    this.meta.addTag({ name: 'description', content: 'To Get a Free SEO Analysis Of Your Site, contact us now. You can find out the flaws and errors in the form of a collective report' });
 
   }
   ngOnInit() {

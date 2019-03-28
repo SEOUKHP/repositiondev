@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about',
@@ -8,8 +9,9 @@ import { Title } from '@angular/platform-browser';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title, private meta: Meta) {
     this.titleService.setTitle('About Us | Reposition');
+    this.meta.addTag({ name: 'description', content: 'This is the about us page of our. Go through this page to know more about our field of vision and services' });
 
   }
 

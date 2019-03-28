@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -10,8 +11,9 @@ export class HomeComponent implements OnInit {
   
 
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title, private meta: Meta) {
     this.titleService.setTitle('Digital Marketing Agency in UK, London | Reposition');
+    this.meta.addTag({ name: 'description', content: 'Reposition is a Search Engine Optimisation, Paid Search and Branding Agency. To get the best services in this field contact us' });
 
   }
 
