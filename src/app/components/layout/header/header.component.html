@@ -1,37 +1,12 @@
-<div class="header-leftbar">
-  <ul>
-    <li>
-      <a routerLink="home">
-        <span>
-          <img src="https://www.reposition.co.uk/wp-content/uploads/2018/12/home-img.png" alt="home-img">
-        </span>Home
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <span>
-          <img src="https://www.reposition.co.uk/wp-content/uploads/2018/12/globe-img.png" alt="globe-img">
-        </span>EN
-      </a>
-    </li>
-  </ul>
-</div>
-<div class="header-rightbar">
-  <ul>
-    <li><i class="fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i><a href="callto:020 000 000 ">020 000 000 </a></li>
-    <li><i class="fa fa-envelope" aria-hidden="true" style="margin-right: 5px;"></i><a href="mailto:hello@reposition.co.uk">hello@reposition.co.uk</a></li>
-  </ul>
-<div class="positioning-content" style="padding: 0;text-align: center;">
-<a class="popup" routerLink="free-seo-analysis" style="padding: 10px;width: 200px;font-size: 15px;text-transform: none;">Free SEO Analysis</a>
-</div>
-</div>
+<app-right-left-sidebar></app-right-left-sidebar>
 
 <header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
   <div class="wrap">
     <div class="title-area">
-      <a routerLink="home" class="custom-logo-link" itemprop="url"><img width="250" height="212" src="assets/images/Logo.png" class="custom-logo" alt="THE SEO &amp; DIGITAL POSITIONING AGENCY" itemprop="logo"  /></a>
+      <a routerLink="/" class="custom-logo-link" itemprop="url"><img width="250" height="212" src="assets/images/Logo.png" class="custom-logo" alt="THE SEO &amp; DIGITAL POSITIONING AGENCY" itemprop="logo"  /></a>
 
     </div>
+    <button class="menu-toggle dashicons-before dashicons-menu" aria-expanded="false" aria-pressed="false" id="genesis-mobile-nav-primary">Menu</button>
     <nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement" id="genesis-nav-primary">
       <div class="wrap">
         <ul id="menu-main-menu" class="menu genesis-nav-menu menu-primary js-superfish">
@@ -88,8 +63,8 @@
             </a>
           </li>
           <li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956">
-            <a routerLink="web-development-services" itemprop="url">
-              <span itemprop="name">Web Development</span>
+            <a routerLink="case-study" itemprop="url">
+              <span itemprop="name">Case Study</span>
             </a>
           </li>
           <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39">
@@ -98,15 +73,15 @@
             </a>
             <ul class="sub-menu">
               <li id="menu-item-848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-848">
-                <a routerLink="blog" itemprop="url">
+                <a href="https://www.reposition.co.uk/blog/" itemprop="url">
                   <span itemprop="name">Blog</span>
                 </a>
               </li>
-              <li id="menu-item-849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-849">
+              <!--<li id="menu-item-849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-849">
                 <a routerLink="case-study" itemprop="url">
                   <span itemprop="name">Case Studies</span>
                 </a>
-              </li>
+              </li>-->
             </ul>
           </li>
         </ul>

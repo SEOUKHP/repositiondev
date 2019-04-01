@@ -31,22 +31,23 @@
             <div class="footer-services">
               <h2>Services</h2>
               <ul>
-                <li><a href="#">Online Prescence Audit </a></li>
-                <li><a href="#">Search Engine Optimisation </a></li>
-                <li><a href="branding/index.html">Branding</a></li>
-                <li><a href="conversion-rate-optimisation/index.html">Conversion Rate Optimisation</a></li>
-                <li><a href="social-media-marketing/index.html">Social Media Marketing </a></li>
-                <li><a href="email-marketing/index.html">Email Marketing</a></li>
-                <li><a href="pay-per-click-management/index.html">Pay Per Click</a></li>
-                <li><a href="content-marketing-services/index.html">Content Marketing </a></li>
-                <li><a href="local-seo-services/index.html">Local SEO</a></li>
-                <li><a href="#">Map Search Optimisation</a></li>
-                <li><a href="#">Link Building & Content</a></li>
-                <li><a href="web-design-services/index.html">Website Design</a></li>
-                <li><a href="web-development-services/index.html">Web Development</a></li>
-                <li><a href="mobile-marketing-services/index.html">Mobile Marketing </a></li>
-                <li><a href="digital-consultancy-services/index.html">Digital Consultancy</a></li>
-                <li><a href="reputation-management-services/index.html">Reputation Management</a></li>
+                
+                <li><a routerLink="seo-services">Search Engine Optimisation </a></li>
+                <li><a routerLink="free-seo-analysis">Online Prescence Audit </a></li>
+                <li><a routerLink="branding">Branding</a></li>
+                <li><a routerLink="conversion-rate-optimisation">Conversion Rate Optimisation</a></li>
+                <li><a routerLink="social-media-marketing">Social Media Marketing </a></li>
+                <li><a routerLink="email-marketing">Email Marketing</a></li>
+                <li><a routerLink="pay-per-click-management">Pay Per Click</a></li>
+                <li><a routerLink="content-marketing-services">Content Marketing </a></li>
+                <li><a routerLink="local-seo-services">Local SEO</a></li>
+                <!--<li><a href="#">Map Search Optimisation</a></li>
+                <li><a href="#">Link Building & Content</a></li>-->
+                <li><a routerLink="web-design-services">Website Design</a></li>
+                <li><a routerLink="web-development-services">Web Development</a></li>
+                <li><a routerLink="mobile-marketing-services">Mobile Marketing </a></li>
+                <li><a routerLink="digital-consultancy-services">Digital Consultancy</a></li>
+                <li><a routerLink="reputation-management-services">Reputation Management</a></li>
                 <li><a routerLink="dental-seo">Dental SEO</a></li>
               </ul>
             </div>
@@ -61,56 +62,45 @@
           <div class="textwidget">
             <div role="form" class="wpcf7" id="wpcf7-f1110-o1" lang="en-US" dir="ltr">
               <div class="screen-reader-response"></div>
-              <form action="https://www.reposition.co.uk/#wpcf7-f1110-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                <div style="display: none;">
-                  <input type="hidden" name="_wpcf7" value="1110" />
-                  <input type="hidden" name="_wpcf7_version" value="5.1.1" />
-                  <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                  <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1110-o1" />
-                  <input type="hidden" name="_wpcf7_container_post" value="0" />
-                  <input type="hidden" name="g-recaptcha-response" value="" />
-                </div>
+              <form name="myForm" action="https://app.nutshell.com/api/v1/public/lead/300086:8b7860edc8f84748da9bd8830f7d300cdd10ba57" method="post" onsubmit="return validateForm()" class="wpcf7-form">
+                <input name="successUrl" value="https://www.reposition.co.uk/thank-you" type="hidden">
+                <input name="source[name]" value="Web form" type="hidden">
                 <div style="width: 50%;float: left;padding: 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap Name">
-                      <input type="text" name="Name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field" aria-required="true" aria-invalid="false" placeholder="Name" />
+                      <input type="text" name="account[name]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field" required placeholder="Name" />
                     </span>
                   </label>
                 </div>
                 <div style=" width: 50%;float: right;padding: 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap CompanyName">
-                      <input type="text" name="CompanyName" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field" aria-required="true" aria-invalid="false" placeholder="Company Name" />
+                      <input type="text" name="account[company]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field" required placeholder="Company Name" />
                     </span>
                   </label>
                 </div>
                 <div style="width: 50%;float: left;padding: 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap email">
-                      <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email text-field" aria-required="true" aria-invalid="false" placeholder="Email" />
+                      <input type="email" name="account[email]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email text-field" required placeholder="Email" />
                     </span>
                   </label>
                 </div>
-                <div style=" width: 40%;float: right;padding: 3px;">
+                <div style=" width: 35%;float: right;padding: 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap PhoneNumber">
-                      <input type="tel" name="PhoneNumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel text-field" aria-required="true" aria-invalid="false" placeholder="Phone Number" />
+                      <input type="number" name="account[phone]" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel text-field" required placeholder="Phone Number" />
                     </span>
                   </label>
                 </div>
-                <div style=" width: 10%;float: right;padding: 3px 0px 3px 3px;">
+                <div style=" width: 15%;float: right;padding: 3px 0px 3px 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap countrycode">
-                      <select name="countrycode" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required select-field" aria-required="true" aria-invalid="false">
+                      <!--<select name="countrycode" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required select-field" required="true" aria-invalid="false">
                         <option value="">
                           ---
                         </option>
-                        <option value="+91">
-                          +91
-                        </option>
-                        <option value="+92">
-                          +92
-                        </option>
+
                         <option value="+44">+44</option>
                         <option value="+1">+1</option>
                         <option value="+61">+61</option>
@@ -359,19 +349,26 @@
                         <option value="+260">+260 </option>
                         <option value="+263">+263 </option>
                         <option value="+358">+358 </option>
-                      </select>
+                        <option value="+91">
+                          +91
+                        </option>
+                        <option value="+92">
+                          +92
+                        </option>
+                      </select>-->
+                      <input type="number" name="countrycode" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel text-field" required placeholder="####"/>
                     </span>
                   </label>
                 </div>
                 <div style="width: 50%;float: left;padding: 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap ServiceDesired">
-                      <select name="ServiceDesired" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required select-field" aria-required="true" aria-invalid="false">
-                        <option value="Service Desired">
+                      <select name="product[name]" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required select-field" required>
+                        <option value="">
                           Service Desired
                         </option>
-                        <option value="Online Presence &amp; SEO Audit">
-                          Online Presence &amp; SEO Audit
+                        <option value="Online Presence & SEO Audit">
+                          Online Presence & SEO Audit
                         </option>
                         <option value="SEO Services">
                           SEO Services
@@ -410,7 +407,7 @@
                 <div style=" width: 50%;float: right;padding: 3px;">
                   <label>
                     <span class="wpcf7-form-control-wrap Budget">
-                      <select name="Budget" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required select-field" aria-required="true" aria-invalid="false">
+                      <select name="lead[budget]" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required select-field" required>
                         <option value="Budget">
                           Budget
                         </option>
@@ -434,10 +431,10 @@
                   </label>
                 </div>
                 <div style="padding: 3px;">
-                  <label> <span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea text-field" aria-invalid="false" placeholder="Tell Us about your company"></textarea></span></label>
+                  <label> <span class="wpcf7-form-control-wrap message"><textarea name="note" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea text-field" required placeholder="Tell Us about your company"></textarea></span></label>
                 </div>
                 <p>
-                  <input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit send-button" />
+                  <input type="submit" value="Submit" id="submit" class="wpcf7-form-control wpcf7-submit send-button" />
                 </p>
                 <div class="wpcf7-response-output wpcf7-display-none"></div>
               </form>
@@ -453,20 +450,20 @@
   <div class="flaxwidth" style="margin: 0 auto;background: #34383e;left:0;right:0;">
     <ul class="flex">
       <li style="    padding: 30px;">
-        <img src="https://www.reposition.co.uk/wp-content/uploads/2019/03/A.png" style="padding:0px 10px;" />
-        <a href="#" style="    color: white;">
+        <img src="/assets/images/2019/03/A.png" style="padding: 4px 6px 3px 4px;" />
+        <a href="tel:020 000 000" style="    color: white;">
           <strong>Call</strong>:<span style="color:#ada8a8;"> 020 000 000</span>
         </a>
       </li>
       <li style="    padding: 30px;">
-        <img src="https://www.reposition.co.uk/wp-content/uploads/2019/03/B.png" style="padding:0px 10px;" />
-        <a href="#" style="    color: white;">
+        <img src="/assets/images/2019/03/B.png" style="padding: 4px 6px 3px 4px;" />
+        <a href="mailto:Hello@Reposition.Co.Uk" style="    color: white;">
           <strong>Email</strong>: <span style="color:#ada8a8;">Hello@Reposition.Co.Uk</span>
         </a>
       </li>
       <li style="    padding: 30px;">
-        <img src="https://www.reposition.co.uk/wp-content/uploads/2019/03/C.png" style="padding:0px 10px;" />
-        <a href="#" style="    color: white;">
+        <img src="/assets/images/2019/03/C.png" style="padding: 4px 6px 3px 4px;" />
+        <a  style="    color: white;">
           <strong>Address</strong>: <span style="color:#ada8a8;">22 LONG ACRE, COVENT GARDEN, LONDON, WC2E 9LY</span>
         </a>
       </li>
@@ -474,6 +471,6 @@
   </div>
 </div>
 <div class="footer-bottom" style="background-color:#22262c; text-align:center;    height: 180px;">
-  <img src="https://www.reposition.co.uk/wp-content/uploads/2018/12/footer-logo.png" style="    margin-top: 85px;" />
+  <img src="/assets/images/2018/12/footer-logo.png" style="    margin-top: 85px;" />
 </div>
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+

@@ -1,5 +1,5 @@
 .slick-slide0 {
-  background-image: url("https://www.reposition.co.uk/wp-content/uploads/2019/03/Purple-bricks.jpg");
+  background-image: url("/assets/images/homebanner/B2.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@
 
 
 .slick-slide1 {
-  background-image: url("https://www.reposition.co.uk/wp-content/uploads/2019/03/A.jpg");
+  background-image: url("/assets/images/homebanner/B1.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,7 @@
 
 
 .slick-slide2 {
-  background-image: url("https://www.reposition.co.uk/wp-content/uploads/2019/03/Boss.jpg");
+  background-image: url("/assets/images/homebanner/B3.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,6 +43,12 @@
   padding: 50px 0px !important;
   background-color: #f9f9f9;
 }
+.elementor-partner {
+  padding: 50px 0px 0px 0px !important;
+  
+}
 
-
+.fullwidth {
+  width: -webkit-fill-available;
+}
 

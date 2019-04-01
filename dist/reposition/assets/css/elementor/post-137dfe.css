@@ -1,0 +1,199 @@
+.elementor-13 .elementor-element.elementor-element-fda97fd > .elementor-container {
+  max-width: 500px;
+}
+
+.elementor-13 .elementor-element.elementor-element-9678b58 .elementor-spacer-inner {
+  height: 110px;
+}
+
+.elementor-13 .elementor-element.elementor-element-0900090 .elementor-text-editor {
+  text-align: center;
+}
+
+.elementor-13 .elementor-element.elementor-element-0900090 {
+  color: #3ec352;
+}
+.elementor-element-0900090 {
+  color: #3ec352;
+}
+
+.elementor-13 .elementor-element.elementor-element-e363186 .elementor-text-editor {
+  text-align: center;
+}
+
+.elementor-13 .elementor-element.elementor-element-6554eb6 .elementor-text-editor {
+  text-align: center;
+}
+
+.elementor-13 .elementor-element.elementor-element-732e53c .elementor-spacer-inner {
+  height: 50px;
+}
+
+.elementor-13 .elementor-element.elementor-element-4a9c4cd > .elementor-container {
+  max-width: 500px;
+}
+
+.elementor-13 .elementor-element.elementor-element-fa00197 .elementor-text-editor {
+  text-align: center;
+}
+
+.elementor-13 .elementor-element.elementor-element-fa00197 {
+  color: #3ec352;
+}
+
+.elementor-13 .elementor-element.elementor-element-4e5e565 .slick-slide {
+  height: 100%;
+}
+
+.elementor-13 .elementor-element.elementor-element-4e5e565 .slick-slide-bg {
+  animation-duration: calc(5000ms*1.2);
+  transition-duration: calc(5000ms);
+}
+
+.elementor-13 .elementor-element.elementor-element-4e5e565 .elementor-slide-content {
+  max-width: 100%;
+}
+
+.elementor-13 .elementor-element.elementor-element-4e5e565 .slick-slide-inner {
+  text-align: center;
+}
+
+.elementor-13 .elementor-element.elementor-element-4e5e565 .elementor-slide-button {
+  color: #000000;
+  border-color: #000000;
+}
+
+.elementor-13 .elementor-element.elementor-element-4e5e565 .elementor-slides-wrapper .slick-slider .slick-prev:before,
+.elementor-13 .elementor-element.elementor-element-4e5e565 .elementor-slides-wrapper .slick-slider .slick-next:before {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.elementor-13 .elementor-element.elementor-element-07a9e2e .elementor-spacer-inner {
+  height: 50px;
+}
+
+.elementor-13 .elementor-element.elementor-element-04c1cdd .elementor-spacer-inner {
+  height: 50px;
+}
+
+.elementor-13 .elementor-element.elementor-element-fb02a0f .elementor-text-editor {
+  text-align: center;
+}
+
+.elementor-13 .elementor-element.elementor-element-fb02a0f {
+  color: #3ec352;
+}
+
+.elementor-13 .elementor-element.elementor-element-7f9dc9d .elementor-spacer-inner {
+  height: 50px;
+}
+
+.elementor-13 .elementor-element.elementor-element-ccc750b .elementor-text-editor {
+  text-align: left;
+}
+
+.elementor-13 .elementor-element.elementor-element-ccc750b {
+  color: #434142;
+  font-size: 1px;
+  line-height: 1.9em;
+}
+
+.elementor-13 .elementor-element.elementor-element-408b276 {
+  color: #3b393a;
+}
+
+.elementor-13 .elementor-element.elementor-element-115fd78 .elementor-spacer-inner {
+  height: 50px;
+}
+
+.elementor-13 .elementor-element.elementor-element-d289d75 .elementor-text-editor {
+  text-align: left;
+}
+
+.elementor-13 .elementor-element.elementor-element-d289d75 {
+  color: #434142;
+  font-size: 1px;
+  line-height: 1.9em;
+}
+
+.elementor-13 .elementor-element.elementor-element-6c6dbed {
+  color: #3b393a;
+}
+
+.elementor-13 .elementor-element.elementor-element-09861ae .elementor-spacer-inner {
+  height: 50px;
+}
+
+.elementor-13 .elementor-element.elementor-element-a2495ec .elementor-spacer-inner {
+  height: 50px;
+}
+
+@media(min-width:768px) {
+  .elementor-13 .elementor-element.elementor-element-7c2b419 {
+    width: 33.228%;
+  }
+
+  .elementor-13 .elementor-element.elementor-element-6be7206 {
+    width: 66.769%;
+  }
+}
+.elementor-slick-slider .slick-next:before, .elementor-slick-slider .slick-prev:before {
+  line-height: 0 !important;
+}
+
+
+.elementor-slick-slider .slick-prev
+{
+  left:-60px !important;
+}
+.elementor-slick-slider .slick-next
+{
+  right:-60px !important;
+}
+/* Start custom CSS for slides, class: .elementor-element-4e5e565 */
+.slick-prev:before,
+.slick-next:before {
+  color: white !important;
+}
+
+.slick-next,
+.slick-prev {
+  background: #6f6b6c !important;
+  border-radius: 50%;
+ 
+  top: 35% !important;
+}
+
+
+/* End custom CSS */
+
+
+/* Start custom CSS for text-editor, class: .elementor-element-ccc750b */
+
+h4:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #27ae61;
+  margin-top: 20px;
+}
+
+
+/* End custom CSS */
+
+
+/* Start custom CSS for text-editor, class: .elementor-element-d289d75 */
+
+h4:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #27ae61;
+  margin-top: 20px;
+}
+
+
+/* End custom CSS */
