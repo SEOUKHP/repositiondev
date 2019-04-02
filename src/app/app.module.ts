@@ -17,7 +17,6 @@ import { PayPerClickManagementComponent } from './components/site/pay-per-click-
 import { WebDesignServicesComponent } from './components/site/web-design-services/web-design-services.component';
 import { WebDevelopmentServicesComponent } from './components/site/web-development-services/web-development-services.component';
 import { FreeSeoServicesComponent } from './components/site/free-seo-services/free-seo-services.component';
-import { DentalSeoGoogleComponent } from './components/site/dental-seo-google/dental-seo-google.component';
 import { LocalSeoServicesComponent } from './components/site/local-seo-services/local-seo-services.component';
 import { EcommerceSeoServicesComponent } from './components/site/ecommerce-seo-services/ecommerce-seo-services.component';
 import { LinkBuildingServicesComponent } from './components/site/link-building-services/link-building-services.component';
@@ -44,6 +43,9 @@ import { DigitalConsultancyServicesComponent } from './components/site/digital-c
 import { ReputationManagementServicesComponent } from './components/site/reputation-management-services/reputation-management-services.component';
 import { ThankYouComponent } from './components/site/thank-you/thank-you.component';
 import { PokerComponent } from './components/site/case-studies/poker/poker.component';
+import { EnquirebuttonComponent } from './components/site/enquirebutton/enquirebutton.component';
+import { PrivacyPolicyComponent } from './components/site/privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './components/site/terms-conditions/terms-conditions.component';
 
 
 @NgModule({
@@ -59,7 +61,6 @@ import { PokerComponent } from './components/site/case-studies/poker/poker.compo
     WebDesignServicesComponent,
     WebDevelopmentServicesComponent,
     FreeSeoServicesComponent,
-    DentalSeoGoogleComponent,
     LocalSeoServicesComponent,
     EcommerceSeoServicesComponent,
     LinkBuildingServicesComponent,
@@ -86,7 +87,10 @@ import { PokerComponent } from './components/site/case-studies/poker/poker.compo
     DigitalConsultancyServicesComponent,
     ReputationManagementServicesComponent,
     ThankYouComponent,
-    PokerComponent
+    PokerComponent,
+    EnquirebuttonComponent,
+    PrivacyPolicyComponent,
+    TermsConditionsComponent
    
   ],
   imports: [

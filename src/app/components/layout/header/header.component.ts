@@ -15,6 +15,12 @@ export class HeaderComponent implements OnInit {
     $("#genesis-mobile-nav-primary").click(function(){
       $("#genesis-nav-primary").slideToggle();
     });
+    //if (screen.width < 960) {
+    //  $(".menu-item").click(function () {
+    //    $("#genesis-nav-primary").css("display", "none");
+    //  });
+    //}
+   
   }
 
 }

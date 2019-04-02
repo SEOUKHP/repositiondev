@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 
 .image-full,
 .image-responsive,
@@ -4560,8 +4560,10 @@ address {
 
 .container__bg-blue-purple {
   padding-bottom: 1px;
-  background: #1a5b9b;
-  background-image: url(https://www.reposition.co.uk/wp-content/uploads/2019/03/color-2174052_1280-1.jpg);
+  background: #3ec352;
+  background-image: url(/assets/images/2019/03/color.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   /*background: -moz-linear-gradient(-45deg, #1a5b9b 0%, #50319d 70%, #50319d 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #1a5b9b), color-stop(70%, #50319d), color-stop(100%, #50319d));
   background: -webkit-linear-gradient(-45deg, #1a5b9b 0%, #50319d 70%, #50319d 100%);
@@ -5771,15 +5773,15 @@ ul.grid-block {
 
 @media (max-width:1500px) {
   .grid-showcase > div {
-    width: 33.33%
+    width: 100%
   }
 
     .grid-showcase > div.\--style-medium {
-      width: 66.66%
+      width: 100%
     }
 
     .grid-showcase > div.\--style-large {
-      width: 99.99%
+      width: 100%
     }
 }
 

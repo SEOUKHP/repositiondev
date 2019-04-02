@@ -1,0 +1,16 @@
+.term-condition-ul {
+  font-family: "Montserrat-regular", Georgia, serif;
+}
+  .term-condition-ul li {
+    margin: 0 0 20px;
+  }
+.pay li {
+    list-style-type: circle !important;
+  }
+.non-pay li {
+    list-style-type:disc;
+  }
+.number li
+{
+  list-style-type:decimal;
+}

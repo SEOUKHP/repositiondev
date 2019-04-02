@@ -9,7 +9,6 @@ import { PayPerClickManagementComponent } from './components/site/pay-per-click-
 import { WebDesignServicesComponent } from './components/site/web-design-services/web-design-services.component';
 import { WebDevelopmentServicesComponent } from './components/site/web-development-services/web-development-services.component';
 import { FreeSeoServicesComponent } from './components/site/free-seo-services/free-seo-services.component';
-import { DentalSeoGoogleComponent } from './components/site/dental-seo-google/dental-seo-google.component';
 import { LocalSeoServicesComponent } from './components/site/local-seo-services/local-seo-services.component';
 import { EcommerceSeoServicesComponent } from './components/site/ecommerce-seo-services/ecommerce-seo-services.component';
 import { LinkBuildingServicesComponent } from './components/site/link-building-services/link-building-services.component';
@@ -37,10 +36,15 @@ import { ThankYouComponent } from './components/site/thank-you/thank-you.compone
 
 import { HugoBossComponent } from './components/site/case-studies/hugo-boss/hugo-boss.component';
 import { PokerComponent } from './components/site/case-studies/poker/poker.component';
+import { PrivacyPolicyComponent } from './components/site/privacy-policy/privacy-policy.component';
+import { TermsConditionsComponent } from './components/site/terms-conditions/terms-conditions.component';
+
 
 const routes: Routes = [
 
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'terms-conditions', component: TermsConditionsComponent},
   { path: 'thank-you', component: ThankYouComponent},
   {path: 'reputation-management-services' ,component:ReputationManagementServicesComponent },
 {path: 'mobile-marketing-services', component:MobileMarketingServicesComponent},
@@ -53,7 +57,6 @@ const routes: Routes = [
   { path: 'web-design-services', component: WebDesignServicesComponent },
   { path: 'web-development-services', component: WebDevelopmentServicesComponent },
   { path: 'free-seo-analysis', component: FreeSeoServicesComponent },
-  { path: 'dental-seo-google', component: DentalSeoGoogleComponent },
   { path: 'dental-seo', component: DentalSeoComponent },
   { path: 'local-seo-services', component: LocalSeoServicesComponent },
   { path: 'ecommerce-seo-services', component: EcommerceSeoServicesComponent },
@@ -72,7 +75,10 @@ const routes: Routes = [
   { path: 'case-study/purple-bricks', component: PurpleBricksComponent},
   { path: 'case-study/hope-and-glory', component: ThehopeandgloryComponent},
 
-  { path: 'case-study/islandoutpost', component: IslandoutpostComponent},
+  { path: 'case-study/islandoutpost', component: IslandoutpostComponent },
+  { path: 'islandoutpost', component: IslandoutpostComponent },
+  { path: 'mandeville', component: MandevilleComponent },
+  { path: 'wenzels', component: WenzelsComponent },
   { path: 'case-study/mandeville', component: MandevilleComponent},
  
   { path: 'case-study/hugo-boss', component: HugoBossComponent },

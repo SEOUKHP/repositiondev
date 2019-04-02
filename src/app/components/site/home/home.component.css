@@ -50,5 +50,51 @@
 
 .fullwidth {
   width: -webkit-fill-available;
+  margin:100px auto !important;
+  display: table-cell;
+  vertical-align: middle;
+  height: 80vh;
 }
 
+.case-study {
+  margin: 100px auto !important;
+  display: table-cell;
+  vertical-align: middle;
+  height: 50vh;
+}
+.col-md-6 {
+  margin-top:80px;
+  margin-left:50px;
+}
+.key-areas {
+  margin-top:90px;
+}
+@media (max-width: 767px) {
+  .elementor-col-100-home {
+    display: block;
+  }
+  .fullwidth {
+    height: 100%;
+  }
+  .case-study
+  {
+    padding-bottom:50px;
+  }
+  .about-key-areas .elementor-column-wrap {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .key-areas-content li
+  {
+    width:100%!important;
+  }
+  .key-areas
+  {
+    margin:0px;
+    padding:0px;
+  }
+  #section03 {
+    height: 1200px;
+  }
+}
