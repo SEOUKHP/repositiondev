@@ -1016,8 +1016,8 @@ textarea.text-field {
 	display: none;
 }
 .dolor-sit {
-	padding: 0 15px 0;
-	width: 100%;
+	padding: 0 15px 0 !important;
+	width: 100% !important;
 }
 .newyork-times p {
 	font-size: 15px;
@@ -1115,7 +1115,7 @@ textarea.text-field {
 }
 .seo-service-outer.seo-service-left.metric-report {
 	padding: 0 15px;
-	width:100%;
+	width:100% !important;
 }
 .seo-campaigns h2 {
 	font-size: 31px;

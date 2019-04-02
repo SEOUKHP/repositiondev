@@ -46,6 +46,8 @@ import { PokerComponent } from './components/site/case-studies/poker/poker.compo
 import { EnquirebuttonComponent } from './components/site/enquirebutton/enquirebutton.component';
 import { PrivacyPolicyComponent } from './components/site/privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './components/site/terms-conditions/terms-conditions.component';
+import { RefundPolicyComponent } from './components/site/refund-policy/refund-policy.component';
+import { DisclaimerComponent } from './components/site/disclaimer/disclaimer.component';
 
 
 @NgModule({
@@ -90,7 +92,9 @@ import { TermsConditionsComponent } from './components/site/terms-conditions/ter
     PokerComponent,
     EnquirebuttonComponent,
     PrivacyPolicyComponent,
-    TermsConditionsComponent
+    TermsConditionsComponent,
+    RefundPolicyComponent,
+    DisclaimerComponent
    
   ],
   imports: [

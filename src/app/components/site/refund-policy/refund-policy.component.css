@@ -1,0 +1,8 @@
+.term-condition-ul {
+  font-family: "Montserrat-regular", Georgia, serif;
+}
+
+  .term-condition-ul li {
+    margin: 0 0 20px;
+    list-style-type: disc;
+  }

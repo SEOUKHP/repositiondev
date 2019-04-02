@@ -24,3 +24,13 @@
     background-color: #DDF;
     color: #000;
   }
+.select-field {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: url('/assets/images/home-img.png');
+  background-position: 95% center;
+  background-repeat: no-repeat;
+  outline: none;
+}

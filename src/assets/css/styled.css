@@ -6614,7 +6614,8 @@ div.wpcf7-response-output {
 
 .dental-seo-title {
   text-align: center;
-  padding: 140px 0;
+  max-width: 1205px !important;
+  margin: 100px auto;
 }
 
 
