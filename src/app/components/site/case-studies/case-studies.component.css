@@ -9,6 +9,16 @@
 margin-left: auto;
 margin-right: auto;
 }
+#casestudy {
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: url('/assets/images/home-img.png');
+  background-position: 95% center;
+  background-repeat: no-repeat;
+  outline: none;
+}
 
 .image-full,
 .popup-add-cart .product-thumbnail img {
@@ -7412,6 +7422,7 @@ textarea {
     padding-left: 20px;
     padding-right: 20px
   }
+ 
 }
 
 .\--fill .ph__column__nav__sub li {
@@ -7828,6 +7839,9 @@ textarea {
     margin: 0 auto;
     min-height: 159px;
     margin-bottom: 100px
+  }
+ h1 {
+    font-size: 70px !important;
   }
 }
 
@@ -29110,7 +29124,7 @@ p {
 }
 
 .page-header__title {
-  font-size: 85px;
+  font-size: 70px;
   letter-spacing: -7px;
   line-height: 1
 }
