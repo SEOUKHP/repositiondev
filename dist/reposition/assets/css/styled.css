@@ -156,16 +156,32 @@ html {
 .dashicons-menu:before {
   content: "\f333";
 }
+.pages-navigation {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-weight: 700;
+}
+.nav-previous {
+  float: left;
+  margin-right: 10px;
+  color: #02498b;
+}
+.nav-next {
+  float: right;
+  margin-left: 10px;
+  color: #02498b;
+}
+.pages-navigation a {
+  color: #3ec352;
+}
 /* Defaults
 ---------------------------------------------------------------------------------------------------- */
-
 /* Typographical Elements
 --------------------------------------------- */
-
 html {
-	font-size: 62.5%; /* 10px browser default */
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+  font-size: 62.5%; /* 10px browser default */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Chrome fix */

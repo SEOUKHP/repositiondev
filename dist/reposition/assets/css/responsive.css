@@ -491,7 +491,7 @@
 	width: 170px;
 }
 .auto-container {
-	width: 100%;
+	width: 100% !important;
 }
 .velo-slides-nav a {
 	font-size: 9px;
