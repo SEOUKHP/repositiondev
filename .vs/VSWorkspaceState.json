@@ -4,8 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\site",
-    "\\src\\app\\components\\site\\case-studies"
+    "\\src\\app\\components\\layout",
+    "\\src\\assets",
+    "\\src\\assets\\css"
   ],
+  "SelectedNode": "\\src\\assets\\css\\responsive.css",
   "PreviewInSolutionExplorer": false
 }

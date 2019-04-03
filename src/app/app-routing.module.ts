@@ -38,13 +38,11 @@ import { HugoBossComponent } from './components/site/case-studies/hugo-boss/hugo
 import { PokerComponent } from './components/site/case-studies/poker/poker.component';
 import { PrivacyPolicyComponent } from './components/site/privacy-policy/privacy-policy.component';
 import { TermsConditionsComponent } from './components/site/terms-conditions/terms-conditions.component';
-import { RefundPolicyComponent } from './components/site/refund-policy/refund-policy.component';
 import { DisclaimerComponent } from './components/site/disclaimer/disclaimer.component';
 
 const routes: Routes = [
 
   { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'refund-policy', component: RefundPolicyComponent },
   { path: 'disclaimer', component: DisclaimerComponent},
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'terms-conditions', component: TermsConditionsComponent},
